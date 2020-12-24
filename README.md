@@ -66,7 +66,7 @@ git commit -m "Containerized Hello_world."
 git push
 ```
 
-<span style="display:block;text-align:center">![CodeRepoCodeCommit](./Code\ repository\ on\ CodeCommit.png "Code Repository CodeCommit")</span>
+<span style="display:block;text-align:center">![CodeRepoCodeCommit](./Code-Repository-on-CodeCommit.png "Code Repository CodeCommit")</span>
 
 # Continuous deployment pipeline with CodePipeline
 
@@ -473,7 +473,7 @@ Events:
 Hello World!
 </pre>
 
-<span style="display:block;text-align:center">![HelloWorldCommits](./hello_world\ Commits.png "Hello World Commits")</span>
+<span style="display:block;text-align:center">![HelloWorldCommits](./hello_world-Commits.png "Hello World Commits")</span>
 
 # Summary
 
@@ -534,8 +534,8 @@ Events:
 Hello World!
 </pre>
 
-<span style="display:block;text-align:center">![HelloWorldRepo](./hello_world_repo\ ECR.png "Hello World Repo ECR")</span>
-<span style="display:block;text-align:center">![HelloWorldFlask](./hello_world\ Flask.png "Hello World Flask")</span>
+<span style="display:block;text-align:center">![HelloWorldRepo](./hello_world_repo-ECR.png "Hello World Repo ECR")</span>
+<span style="display:block;text-align:center">![HelloWorldFlask](./hello_world-Flask.png "Hello World Flask")</span>
 
 Contrary to other solutions which you can find online, this one does not use any extra VMs, containers or Lambda functions to complete the deployment.\
     &nbsp;&nbsp;&nbsp;&nbsp;It simply re-uses a CodeBuild instance to complete all the steps.\
